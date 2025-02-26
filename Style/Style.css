@@ -12,6 +12,7 @@ body{
 }
 .banner1 {
     background-image: url(../Assent/banner-bk.jpg);
+    background-repeat: no-repeat;
     height: 100vh;
     background-position: -50px;
 }
