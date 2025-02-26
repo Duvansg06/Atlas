@@ -11,7 +11,7 @@ body{
     /* background-color: aqua; */
 }
 .banner1 {
-    background-image: url(/Assent/banner-bk.jpg);
+    background-image: url(../Assent/banner-bk.jpg);
     height: 100vh;
     background-position: -50px;
 }
@@ -269,7 +269,7 @@ body{
     display: flex;
     height: 500px;
     color: white;
-    background: url(/Assent/contact-bk.jpg) 100%;
+    background: url(../Assent/contact-bk.jpg) 100%;
     background-position: 0px -200px;
     /* background-color: #01f4a6; */
     justify-content: space-between;
