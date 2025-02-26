@@ -1,0 +1,598 @@
+@import url(https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    /* background-color: aqua; */
+}
+.banner1 {
+    background-image: url(/Assent/banner-bk.jpg);
+    height: 100vh;
+    background-position: -50px;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+    padding: 50px;
+    color: white;
+}
+.logo1{
+    width: 60px;
+}
+
+.tituloP{
+    /* background-color: aliceblue; */
+    height: 200px;
+    padding: 40px;
+    font-size: 20px;
+    color: white;
+}
+.parrafoP{
+    font-size: 15px;
+    margin-top: 50px;
+    
+}
+
+.buttomP{
+    /* background-color: aqua; */
+    padding: 40px;
+}
+
+.buttomP button{
+    border-radius: 80px;
+    width: 130px;
+    height: 40px;
+    color: black;
+    background-color: #00ffdd;
+    border: none;
+}
+
+
+/* ----------- BANNER 2 ------------------- */
+.banner2{
+     background-color: white;
+     height: 100vh;
+     
+}
+
+.titulo2 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    height: 100px;
+}
+
+.titulo2 h2{
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.logos2{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    gap: 5%;
+    justify-content: center;
+    padding: 100px;
+    margin-top: 30px;
+}
+
+.feature h3{
+    display: flex;
+    justify-content: center;
+}
+
+/* --------------- BANNER 3 ---------------- */
+
+.banner3{
+    /* background-color: #00ffdd; */
+    /* background: linear-gradient(347deg, #01f4a6 50%, white 50%); */
+    padding: 10px;
+}
+.contenido3{
+    display: flex;
+    background: linear-gradient(347deg, #01f4a6 50%, white 50%);
+}
+
+.contenido--3{
+    display: flex;
+    background-color: #01f4a6;
+}
+
+.box1{
+    /* background-color: antiquewhite; */
+    padding: 40px; 
+}
+.box1 h2{
+    font-size: 40px;
+}
+.box1 p{
+    margin-top: 35px;
+}
+.buttom3{
+    margin-top: 60px;
+    border-radius: 80px;
+    height: 40px;
+    width: 130px;
+    color: white;
+    border: none;
+    background-color: #192440;
+
+}
+
+.box2{
+    /* background-color: antiquewhite; */
+    padding: 40px;
+}
+
+.box2 h2{
+    font-size: 40px;
+}
+.box2 p{
+    margin-top: 60px;
+}
+
+/* --------------------- BANNER 4---------------- */
+
+.banner4 {
+    /* background-color: #00ffdd; */
+    height: 100vh;
+    
+}
+
+.banner4 h2{
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    align-items: center;
+    font-size: 25px;
+    
+}
+
+.boxx{
+    display: flex;
+    margin-top: 40px;
+    height: 400px;
+    padding: 20px;
+    width: 100%;
+    /* justify-content: space-around;   */
+    justify-content: center;
+}
+
+.box-1{
+    background-color: white;
+    width: 300px;
+}
+.box-1 h3{
+    margin-top: 20px;
+}
+
+.box-1 p{
+    margin-top: 40px;
+}
+.box-1 ul{
+    margin-top: 30px;
+    list-style: none;
+    /* background-color: #01f4a6; */
+    
+}
+.listainfo{
+    /* background-color: #192440; */
+    display: flex;
+    justify-content: center;
+}
+.box-1 ul li{
+    padding: 5px;
+   
+}
+.precios {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;}
+
+.precios samp{
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+
+.box-2{
+    background-color: #192440;
+    color: white;
+    border-radius: 2px;
+    
+}
+.boxx h3{
+    display: flex;
+    justify-content: center;
+
+}
+.btn4{
+    color: #01f4a6;
+    border:none;
+    /* background-color: #01f4a6; */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; 
+}
+
+.btn4 button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.btn-4{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;  
+
+}
+
+
+
+
+.btn-4 button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #01f4a6;
+
+}
+
+/* ------------------BANNER 5 ------------------ */
+
+.clientes{
+    display: flex;
+    background-color: #edeef0;
+    justify-content: space-around;
+    height: 100px;
+    padding: 20px;
+
+}
+
+
+/* ----------- BANNER 6 -------------------------------- */
+
+.banner6{
+    display: flex;
+    height: 500px;
+    color: white;
+    background: url(/Assent/contact-bk.jpg) 100%;
+    background-position: 0px -200px;
+    /* background-color: #01f4a6; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+    /* background-color: #edeef0; */
+}
+
+.informacion6{
+    
+}
+.info6 h2{
+    font-size: 32px;
+}
+
+.info6 p{
+    margin-top: 30px;
+}
+.infocorreo{
+    margin-top: 30px;
+}
+.infocorreo p{
+    color: #edeef0; 
+    margin-top: 10px;
+}
+ 
+.formulario{
+    
+    width: 50%;
+
+}
+.formmar{
+    /* margin-right: 20px; */
+    margin-right: 10px;
+   
+}
+
+.nameemail{
+    /* background-color: #00ffdd; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* gap: 5px; */
+    color: #01f4a6;
+    
+}
+.formulario1{
+     display: flex;
+     /* flex-wrap: wrap; */
+     flex-direction: column;
+     /* background-color: #00ffdd; */
+     width: 100%;
+}
+
+
+/* #email{
+    
+    width: 50%;
+}
+#name{
+    width: 50%;
+} */
+
+
+.nameemail input{
+     height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    
+    background-color: transparent;
+    border:solid 1px #01f4a6;
+    
+}
+
+
+.message p{
+    margin-top: 10px;
+    color: #01f4a6;
+}
+.message textarea{
+    height: 80px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: transparent;
+    border-color: #01f4a6;
+    margin-top: 5px; 
+
+
+}
+
+.button6 {
+    background-color: #01f4a6;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 40px;
+}
+
+.button6 button{
+    border: none;
+    background-color: #01f4a6;
+}
+
+/* ----------------------- BANNER 7 FOOTER ---------------------- */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    height: 80px;
+}
+
+.footer i{
+font-size: 20px;
+margin-right: 10px;
+}
+
+footer{
+    height: 100px;
+    color: white;
+    background-color: #192440;
+    align-items: center;
+    display: flex;
+}
+
+
+/* -------------------- Breakpoints ------------------- */
+
+@media screen and (max-width:1279px){
+    .clientes{
+        margin-top: 80px;
+    }
+
+   /* .formulario{
+    margin-right: -40px;
+   } */
+   .formmar{
+    margin-right: 20px;
+   }
+
+   .informacion6{
+    font-size: 12px;
+   }
+
+   .formulario{
+    /* background-color: #00ffdd; */
+   }
+}
+
+@media screen and (max-width:920px) {
+    .box1 h2{
+        font-size: 30px;
+       }
+       .box2 h2{
+        font-size: 30px;
+       }
+       .banner3{
+        margin-top: 60px;
+       }
+       .img3 img{
+        width: 400px;
+    
+    }
+
+    .logos2{
+        padding: 40px;
+    }
+
+    .informacion6{
+        font-size: 12px;
+    }
+
+    .formulario{
+        /* background-color: #01f4a6; */
+        margin-left: 40px;
+    }
+
+    .nameemail{
+        margin-right: 100px;
+        width: 100%;
+        /* background-color: #00ffdd; */
+    }
+
+    .footer{
+        font-size: 10px;
+        padding: 40px;
+    }
+
+    .logos {
+        
+        
+    }
+}
+
+@media  screen and (max-width:768px){
+.contenido3{
+    flex-wrap: wrap;
+}
+
+.titulo2 h2{
+    
+    font-size: 30px;
+}
+
+
+
+.contenido--3{
+    flex-wrap: wrap;
+}
+
+.clientes{
+    flex-wrap: wrap;
+    margin-top: 800px;
+    /* align-items: center; */
+
+}
+
+.clientes img{
+    width: 60px;
+    /* margin-top: 400px; */
+    /* margin-top: 20px; */
+}
+
+.banner6{
+    /* margin-top: 400px; */
+}
+
+.box-1{
+    margin: 5px;
+    width: 200px;
+    
+}
+.boxx{
+    flex-wrap: wrap;
+    gap: 10%;
+}
+
+.logos2{
+    flex-wrap: wrap;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.buttomP button{
+    margin-top: 25px;
+}
+
+.feature{
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.banner3{
+    margin-top: 450px;
+}
+.btn-4{
+    
+    margin-bottom: 15px;
+}
+
+.banner6{
+    flex-wrap: wrap;
+    height: 100%;
+
+}
+
+.formulario{
+    margin-top: 50px;
+    width: 100%;
+}
+.info6{
+    text-align: center;
+    margin-left: 40px;
+}
+.infocorreo{
+    margin-left: 40px;
+}
+
+    
+}
+
+@media screen  and (max-width:480px){
+
+    .img3 img{
+        width: 300px;
+    }
+
+
+    .banner1{
+        height: 120vh;
+    }
+
+    .buttomP{
+        margin-top: 100px;
+    }
+
+    .titulo2 h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .banner6{
+        justify-content: center;
+    }
+
+
+    .informacion6{
+       margin-right: 20px;
+        
+    }
+    .info6 h2{
+
+        font-size: 25px;
+
+    }
+    .formulario{
+        margin-right: 20px;
+        
+    }
+
+}
+    
+
+
+
+
